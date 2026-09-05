@@ -13,5 +13,9 @@ func WhatANumber(number int) {
 }
 
 func main() {
-	WhatANumber(-1)
+	var number int
+	fmt.Print("Введите целое число:")
+	fmt.Scan(&number)
+	fmt.Printf("Ваше число: %d!\nИтого: ", number)
+	WhatANumber(number)
 }
